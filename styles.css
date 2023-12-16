@@ -1,0 +1,77 @@
+* {
+
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+div {
+    width: 1000px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: mediumseagreen;
+    display: flex;
+    border-radius: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.heading {
+    text-align: center;
+    padding: 1rem;
+}
+
+.description {
+    width: auto;
+    margin: auto;
+    text-align: center;
+    font-size: x-large;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    background-color: aliceblue;
+    padding: 0.5rem;
+    text-align: center; 
+}
+
+caption {
+    font-size: x-large;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+button {
+    width: auto;
+    padding: 1rem;
+    font-size: large;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+
+input {
+    width: auto;
+    padding: 1rem;
+    text-align: center;
+    font-size: medium;
+    border-radius: 1rem;
+}
+
+label {
+    width: auto;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 1rem;
+}
