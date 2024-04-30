@@ -21,10 +21,7 @@ function checkBillInput() {
 
 checkButton.addEventListener("click", function validateBillAndCashAmount() {
   hideMessage();
-  console.log(billAmount.value);
   if (billAmount.value > 0) {
-    console.log(cashGiven.value);
-    console.log(cashGiven >= billAmount);
     if (cashGiven >= billAmount) {
       let amountToBeReturned = cashGiven.value - billAmount.value;
       calculateChange(amountToBeReturned);
